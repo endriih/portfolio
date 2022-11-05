@@ -3,9 +3,9 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Hem
 ==========================
 
-The source for this page is in `content/index.md`.
+Mitt namn är Endri och jag gillar fantasy.
 
-This is a sample home page written in markdown with some frontmatter defined.
+![alt text for screen readers](assets/img/azula.jpeg "Text to show on mouseover")

@@ -27,23 +27,35 @@ body {
 
 .main {
     flex: 1 0 auto;
+    margin: 20px auto 0 23vw;
+}
+
+.main img {
+    width: 40vw;
+    height: 40vh;
 }
 
 .header, .footer {
     flex: 0 0 auto;
+    background-color: blanchedalmond;
 }
 
 /* Header */
 
 .header, .site-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.logo img {
+    width: 10vw;
+    min-height: 100%;
 }
 
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 1em 1em 1em 0;
 }
 
 @media (max-width: 767px) {
@@ -102,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-    max-width: 100%;
+    max-width: 65%;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
