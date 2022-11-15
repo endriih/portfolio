@@ -1,0 +1,229 @@
+@import '../../node_modules/normalize.css/normalize';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+* {
+    color: $font-color;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: $written-font;
+}
+
+p {
+    margin-top: 7px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.header {
+    margin-top: 0;
+    background-color: $background-alternative-color;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
+
+.logo {
+    margin: 0 70px 0 30px;
+
+    img {
+        width: 80px;
+        height: 80px;
+        display: inline;
+    }
+
+    a img {
+        border-radius: 40px;
+        width: 175px;
+        height: 175px;
+    }
+}
+
+.nav {
+    background-color: $background-alternative-color;
+    align-items: center;
+    background-color: #2c6e7c;
+    border-bottom: #5696a46b 1px solid;
+
+    a {
+        color: #ffff;
+        text-decoration: none; 
+    }
+
+    a:hover {
+        color: #000;
+    }
+}
+
+.title {
+    height: 180px;
+    width: 300px;
+    text-align: start;
+
+    a {
+        text-decoration: none;
+    }
+
+    a h1 {
+        font-size: 5.3em;
+        margin-bottom: 5px;
+        margin-top: 0;
+        text-align: start;
+    }
+
+    a p {
+        font-size: 1.5em;
+        margin-left: 5px;
+    }
+}
+
+
+.main {
+    margin-top: 50px;
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    background-color: #c8cfd0;
+    margin-bottom: 20px;
+
+}
+
+.text {
+    display: flex;
+    margin-top: 15px;
+
+    img {
+        margin-left: 20px;
+    }
+}
+
+.underline h1 {
+    margin-bottom: 0;
+}
+
+.underline::after {
+    content: '';
+    display: block;
+    max-width: 30px;
+    height: 1px;
+    border: 5px;
+    background-color: rgb(104, 104, 175);
+}
+
+.footer {
+    background-color: #2c6e7c;
+    margin-top: auto;
+    display: flex;
+    flex-grow: 1;
+    max-height: 40px;
+    align-items: center;
+
+    .social {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        opacity: 0.5;
+    }
+}
+
+.active a {
+    border-bottom: 2px solid #142f35;
+}
+
+@media(max-width: 925px) {
+    .main {
+        width: auto;
+    }
+}
+
+@media(max-width: 538px) {
+    .text {
+        flex-direction: column;
+        margin-bottom: 20px;
+
+        img {
+            min-width: 200px;
+            width: 50%;
+        }
+    }
+
+    .active a {
+        border-bottom: 2px solid #2c6e7c;
+
+    }
+    
+    .site-header {
+        flex-direction: column;
+        height: auto; 
+        justify-content: center;
+        text-align: center;
+    }
+
+    .title {
+        justify-content: center;
+    }
+
+    .title a {
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .logo {
+        margin-top: 20px;
+
+        img {
+            margin-left: 20%;
+        }
+    }
+}
+
+@media(max-width: 272px) {
+    .footer {
+        flex-direction: column;
+        max-height: 60px;
+        height: auto;
+    }
+}
