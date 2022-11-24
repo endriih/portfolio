@@ -6458,6 +6458,117 @@ pre code {
   line-height: 1.4;
 }
 
+.col-span-2 {
+  grid-column: span 2;
+}
+
+.col-span-3 {
+  grid-column: span 3;
+}
+
+.technology-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+.grid-item:hover {
+  transform: scale(0.97);
+}
+
+.grid-title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #A084CF;
+}
+
+.technology-container > div {
+  background-color: #eee;
+  padding: 1em;
+  border-radius: 20px;
+}
+.technology-container > div h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.technology-container > div:nth-of-type(1) {
+  background-color: #A5F1E9;
+}
+.technology-container > div:nth-of-type(1) h1 {
+  color: #FFC4C4;
+}
+
+.technology-container > div:nth-of-type(2) {
+  background-color: #FFF6BF;
+}
+.technology-container > div:nth-of-type(2) h1 {
+  color: #FF8B8B;
+}
+
+.technology-container > div:nth-of-type(3) {
+  background-color: #FCE2DB;
+}
+.technology-container > div:nth-of-type(3) h1 {
+  color: #A084CF;
+}
+
+.technology-container > div:nth-of-type(4) {
+  background-color: #FFACC7;
+}
+.technology-container > div:nth-of-type(4) h1 {
+  color: #F4E06D;
+}
+
+.technology-container > div:nth-of-type(5) {
+  background-color: #FFB9B9;
+}
+.technology-container > div:nth-of-type(5) h1 {
+  color: #F637EC;
+}
+
+.technology-container > div:nth-of-type(6) {
+  background-color: #B8E8FC;
+}
+.technology-container > div:nth-of-type(6) h1 {
+  color: #C499BA;
+}
+
+.technology-container > div:nth-of-type(7) {
+  background-color: #CDFCF6;
+}
+.technology-container > div:nth-of-type(7) h1 {
+  color: #C6DCE4;
+}
+
+/**individual tech*/
+.language-html {
+  padding: 0;
+}
+
+.s-tech-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  line-height: 1.4;
+}
+
+.tech-sidebar p a {
+  text-decoration: none;
+}
+
+@media (max-width: 550px) {
+  .tech-sidebar {
+    display: none;
+  }
+  .tech-info {
+    width: 500px;
+  }
+}
+@media (max-width: 518px) {
+  .tech-info {
+    width: 300px;
+    margin-left: 40px;
+  }
+}
 html {
   height: 100%;
 }
@@ -6615,9 +6726,6 @@ p {
     min-width: 200px;
     width: 50%;
   }
-  .active a {
-    border-bottom: 2px solid #2c6e7c;
-  }
   .site-header {
     flex-direction: column;
     height: auto;
@@ -6645,5 +6753,10 @@ p {
     flex-direction: column;
     max-height: 60px;
     height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .active a {
+    border-bottom: 2px solid #2c6e7c;
   }
 }

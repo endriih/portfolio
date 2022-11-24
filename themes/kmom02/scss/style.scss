@@ -11,6 +11,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import 'blockquotes';
 @import 'code';
+@import 'technology';
 
 html {
     height: 100%;
@@ -25,7 +26,7 @@ body {
 
 * {
     color: $font-color;
-    font-family: 'Poppins', sans-serif;
+    font-family: $poppins-font;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -185,14 +186,10 @@ p {
         }
     }
 
-    .active a {
-        border-bottom: 2px solid #2c6e7c;
-
-    }
     
     .site-header {
         flex-direction: column;
-        height: auto; 
+        height: auto;
         justify-content: center;
         text-align: center;
     }
@@ -225,5 +222,11 @@ p {
         flex-direction: column;
         max-height: 60px;
         height: auto;
+    }
+}
+
+@media(max-width: 768px) {
+    .active a {
+        border-bottom: 2px solid #2c6e7c;
     }
 }
