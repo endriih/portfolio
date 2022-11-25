@@ -3,11 +3,27 @@ Title: Home
 Description: This is our index page.
 ---
 
-<div class="main-text">
-    <span class="underline"><h1>Hem</h1></span>
-    <div class="text">
-    <p>Hej, mitt namn är Endri och jag pluggar webbprogrammering på heltid. Jag har inte värst många intressen har jag märkt på sistone, när jag behövt skriva en massa me-texter för de olika kurserna. Jag gillar att kolla på serier, för tillfället kollar jag på Grey's anatomy och Desperate housewives, har inte fallit för något nytt ännu men det kommer säkert snart i och med att Marvel planerar nya shower. Dessutom gillar jag även att spela, nuförtiden kör jag mest bara League of Legends, men ibland händer det att jag kör Overwatch också.</p>
-    <img src="assets/img/azula.jpeg" width="280" height="250">
+<div class="frontp-container">
+    <div class="content-front">
+        <h1>I'm Endri, <br> A Product Designer <br> and Problem Solver</h1>
+        <div class="btn-wrapper">
+            <button onclick="location.href='#my-work'" class="work-btn">View My Work</button>
+            <button class="contact-btn">Contact me</button>
+        </div>
+         <img class="me-img" src="assets/img/portfoliopic.png">
+    </div>
+</div>
+<div class="work-container">
+    <div class="work-box">
+        <h1 id="my-work">My Recent Work</h1>
+        <div class="work-item">
+                <div class="text-work">
+                <h1>Begravningsmuseum Online</h1>
+                <p>Ett slutprojekt för BTH kursen Webtec. Sidan gjordes för ett online museum framtaget av ett samarbete mellan Ronny Holm och Mikael Roos</p>
+                <p><a href="http://www.student.bth.se/~enha22/dbwebb-kurser/webtec/me/proj/public/home.php" target="_blank">View website</a></p>
+                </div>
+                <img class="work-img" src="assets/img/bmo.png">
+        </div>
     </div>
 </div>
 <script src="js/nav.js"></script>
