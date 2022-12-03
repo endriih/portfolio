@@ -4,6 +4,7 @@ Description: Page about Git
 ---
 
 <div class="s-tech-container">
+<div class="side-bar-wrapper">
     <div class="tech-sidebar">
         <p><a href="css">CSS</a></p>
         <p><a href="html">HTML</a></p>
@@ -13,6 +14,7 @@ Description: Page about Git
         <p {% if page.id==current_page.id %} class="active" {% endif %}><a href="git">Git</a></p>
         <p><a href="sqlite">SQLite</a></p>
     </div>
+</div>
     <div class="tech-info">
         <span class="underline"><h1>Git</h1></span>
         <p style="margin-top: 20px">Git är ett distribuerat versionshanteringssystem som skapades 2005 av Linus Torvalds. Git skapades för att hantera ändringar för Linux-kärnan.</p>

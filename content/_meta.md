@@ -13,4 +13,12 @@ Social:
     - title: Link till sidans github repo.
       url: https://m.youtube.com/c/DbwebbSe
       icon: fab fa-twitter
+
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

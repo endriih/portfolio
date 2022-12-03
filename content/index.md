@@ -15,12 +15,12 @@ Description: This is our index page.
 </div>
 <div class="work-container">
     <div class="work-box">
-        <h1 id="my-work">My Recent Work</h1>
+        <h1 class="work-white">My Recent Work</h1>
         <div class="work-item">
                 <div class="text-work">
                 <h1>Begravningsmuseum Online</h1>
                 <p>Ett slutprojekt för BTH kursen Webtec. Sidan gjordes för ett online museum framtaget av ett samarbete mellan Ronny Holm och Mikael Roos</p>
-                <p><a href="http://www.student.bth.se/~enha22/dbwebb-kurser/webtec/me/proj/public/home.php" target="_blank">View website</a></p>
+                <p><a href="http://www.student.bth.se/~enha22/dbwebb-kurser/webtec/me/proj/public/home.php" target="_blank"omg >View website</a></p>
                 </div>
                 <img class="work-img" src="assets/img/bmo.png">
         </div>

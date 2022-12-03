@@ -1,7 +1,21 @@
-$font-color: #000;
-$font-alternative-color: #fff;
-$accent-color: #ee6c4d;
-$background-color: #f9e8d4;
-$background-alternative-color: #62b0a5;
 $written-font: 'Playfair Display', serif;
 $poppins-font: 'Poppins', sans-serif;
+
+// light variables
+$light-background-color: #fffde7;
+$light-background-alternative-color: #ffefcb;
+$light-background-alternative-color-darker: #f6e3ba;
+$light-font-color: #40392f;
+$light-font-color-darker: #403931;
+$light-button-color: #4e5e80;
+$white-color: #ffff;
+
+//dark variables
+$dark-background-color: #202124;
+$dark-background-alternative-color: #171717;
+$dark-font-color: #f8f3ec;
+$dark-background-alternative-darker: #292424;
+
+.contrast { 
+    filter: contrast(160%); 
+}

@@ -25,10 +25,6 @@
     color: #a084cf;
 }
 
-.border-rad {
-    border-radius: 20px;
-}
-
 .technology-container > div {
     background-color: #eee;
     padding: 1em;
@@ -121,10 +117,16 @@
     margin-bottom: 20px;
 }
 
+
+.border-rad {
+    border-radius: 20px;
+}
+
 .tech-sidebar {
     height: 25vh;
     grid-column: 2/3;
     padding: 20px;
+
 
     p a {
         text-decoration: none;
@@ -136,7 +138,7 @@
     }
 
     a {
-        color: #403931;
+        color: $white-color;
     }
 
     a:hover {
@@ -153,10 +155,12 @@
     
     h1 {
         margin-top: 0;
+        color: $white-color;
     }
 
     p {
         margin-bottom: 20px;
+        color: $white-color;
     }
 }
 

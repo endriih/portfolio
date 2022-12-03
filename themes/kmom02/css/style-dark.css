@@ -6490,13 +6490,10 @@ pre code {
   color: #a084cf;
 }
 
-.border-rad {
-  border-radius: 20px;
-}
-
 .technology-container > div {
   background-color: #eee;
   padding: 1em;
+  border-radius: 20px;
 }
 .technology-container > div h1 {
   font-family: "Poppins", sans-serif;
@@ -6629,7 +6626,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background-color: #fffde7;
+  background-color: #202124;
 }
 
 * {
@@ -6644,7 +6641,7 @@ body {
 }
 
 .nav a, .nav-toggle {
-  color: #40392f;
+  color: #f8f3ec;
   font-weight: 600;
   font-size: 0.84em;
   text-decoration: none;
@@ -6668,7 +6665,7 @@ p {
 
 .icon-title {
   display: inline-block;
-  color: #40392f;
+  color: #f8f3ec;
   opacity: 0.5;
 }
 
@@ -6719,7 +6716,7 @@ p {
   display: flex;
   flex-direction: column;
   margin-left: 40px;
-  color: #40392f;
+  color: #f8f3ec;
   font-size: 1.6em;
 }
 .content-front h1 {
@@ -6738,9 +6735,10 @@ p {
   border: 3px solid #4e5e80;
   font-weight: 600;
   color: #4e5e80;
-  background-color: #fffde7;
+  background-color: #202124;
   cursor: pointer;
   transition: 0.3s;
+  color: white;
 }
 .btn-wrapper :nth-child(1) {
   background-color: #4e5e80;
@@ -6754,8 +6752,12 @@ p {
   color: white;
 }
 
+#my-work {
+  color: white;
+}
+
 .work-container {
-  background-color: #ffefcb;
+  background-color: #171717;
   display: flex;
 }
 .work-container .work-box {
@@ -6823,6 +6825,7 @@ p {
   left: 700px;
   width: auto;
   max-width: 600px;
+  filter: contrast(180%);
 }
 
 .text {
@@ -6847,14 +6850,14 @@ p {
 }
 
 .footer {
-  background-color: #f6e3ba;
+  background-color: #292424;
   margin-top: auto;
   display: flex;
-  flex-grow: 1;
-  max-height: 40px;
+  max-height: 50px;
   align-items: center;
-  border-top: 1px solid rgba(95, 83, 83, 0.089);
+  margin-bottom: 0;
   padding: 20px;
+  border-top: 0.5px solid rgba(172, 159, 141, 0.082);
 }
 .footer .social {
   margin-left: auto;
@@ -6862,21 +6865,21 @@ p {
 }
 .footer a {
   text-decoration: none;
+  color: white;
   font-size: 24px;
-  color: #000;
 }
 .footer a:hover {
   opacity: 0.5;
 }
 
 .active a {
-  border-bottom: 1px solid #403931;
+  border-bottom: 1px solid #f8f3ec;
 }
 
 .main-text {
-  margin: auto;
+  margin: 8% auto;
   width: 50%;
-  margin-top: 8%;
+  color: white;
 }
 
 @media (min-width: 1500px) {
