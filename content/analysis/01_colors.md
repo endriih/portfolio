@@ -22,7 +22,7 @@ Description: Page about color analysis
     <div class="wrapper-result">
         <div class="result-container">
             <div class="result-title">
-                <h4>Mejuri</h4>
+                <h2>Mejuri</h2>
             </div>
             <table style="border-spacing: 4px; border-collapse: separate; margin-left: auto; margin-right: auto; padding: 10px;">
             <tr>
@@ -31,7 +31,7 @@ Description: Page about color analysis
             <td style="height: 50px; width: 50px; background-color: #000000">
             </tr>
             </table>
-            <img class="result-img" src="../assets/img/mejuri-pic.png">
+            <img class="result-img" alt="picture of mejuri's website" src="../assets/img/mejuri-pic.png">
             <div class="result-fonts">
                 <br>
                 <p>"Brandom-grotesque", sans-serif, h6, p-taggar, knappar, b-taggar</p>
@@ -41,7 +41,7 @@ Description: Page about color analysis
         </div>
         <div class="result-container2">
             <div class="result-title">
-                <h4 style="margin-top: 30px;">Linjer</h4>
+                <h2 style="margin-top: 30px;">Linjer</h2>
             </div>
             <table style="border-spacing: 4px; border-collapse: separate; margin-left: auto; margin-right: auto; padding: 10px;">
             <tr>
@@ -49,7 +49,7 @@ Description: Page about color analysis
             <td style="height: 50px; width: 50px; background-color: #000000">
             </tr>
             </table>
-            <img class="result-img" src="../assets/img/linjer-pic.png">
+            <img class="result-img" alt="picture of linjers website" src="../assets/img/linjer-pic.png">
             <div class="result-fonts">
                 <br>
                 <p>Gill Sans Nova, knappar, p-taggar, a-taggar</p>
@@ -59,7 +59,7 @@ Description: Page about color analysis
         </div>
         <div class="result-container2">
             <div class="result-title">
-                <h4 style="margin-top: 30px;">Lugot</h4>
+                <h2 style="margin-top: 30px;">Lugot</h2>
             </div>
             <table style="border-spacing: 4px; border-collapse: separate; margin-left: auto; margin-right: auto; padding: 10px;">
             <tr>
@@ -69,7 +69,7 @@ Description: Page about color analysis
             <td style="height: 50px; width: 50px; background-color: #eadcc5">
             </tr>
             </table>
-            <img class="result-img" src="../assets/img/lugot-pic.png">
+            <img class="result-img" alt="picture of lugots website" src="../assets/img/lugot-pic.png">
             <div class="result-fonts">
                 <br>
                 <p>"EB Garamond", sans-serif, alltsammans</p>

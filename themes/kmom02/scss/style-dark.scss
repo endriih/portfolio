@@ -252,7 +252,7 @@ p {
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
-    h4 {
+    h2 {
         text-align: center;
         padding: 5px;
         color: $white-color;
@@ -272,7 +272,8 @@ p {
 
 .text {
     display: flex;
-    margin-top: 8px;
+    margin-top: 15px;
+    flex-direction: column;
 
     img {
         margin-left: 20px;
@@ -359,6 +360,10 @@ p {
 
 .credit {
     color: $white-color;
+
+    a {
+        color: $white-color;
+    }
 }
 
 .embed-container {

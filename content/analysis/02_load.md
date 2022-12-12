@@ -18,30 +18,30 @@ Description: Page about color analysis
     </div>
     <h1>Resultat</h1>
     <div class="wrapper-result">
-    <iframe class="data-show" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSOudrZeHuyezC-QjH8E0J8W0hF8u6vorOm9K_vPZGieh2mrzMHObawMOyQVcSv3UjIfKtwMm0PMKvK/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    <iframe class="data-show" title="excel data" alt="excel data of loading times" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSOudrZeHuyezC-QjH8E0J8W0hF8u6vorOm9K_vPZGieh2mrzMHObawMOyQVcSv3UjIfKtwMm0PMKvK/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
         <div class="result-container">
             <div class="result-title">
-                <h4>Tori Kelly</h4>
+                <h2>Tori Kelly</h2>
             </div>
-            <img class="result-img" src="../assets/img/tori.png">
+            <img class="result-img" alt="picture of tori kellys website" src="../assets/img/tori.png">
             <div class="result-fonts">
                 <p>Tori Kellys sida hade relativt snabb laddningstid när sidan laddas med cache inaktiverat, men för nya användare som inte har besökt sidan tidigare så hade Tori Kellys hemsida en laddningstid på cirka 6 sekunder vilket inte är optimalt. Laddningstiden borde ligga mellan 0-4 sekunder för bra conversion rates. Dessutom tar det väldigt länge för hemsidan att få sin first contentful paint, vilket kan vara något som får besökaren att klicka bort sig från sidan eftersom det tar alltför lång tid. Dessutom har hemsidan en massa render blocking resources som gör det långsammare för hemsidan att skicka över sitt content. Hemsidan använder heller inte lazy loading för exempelvis bilder på mobila enheter vilket ökar till dröjningen hos uppladdningen av content för användaren.</p>
             </div>
         </div>
         <div class="result-container2">
             <div class="result-title">
-                <h4 style="margin-top: 30px;">Kacey Musgraves</h4>
+                <h2 style="margin-top: 30px;">Kacey Musgraves</h2>
             </div>
-            <img class="result-img" src="../assets/img/kacey.png">
+            <img class="result-img" alt="picture of kacey musgraves website" src="../assets/img/kacey.png">
             <div class="result-fonts">
                 <p>Kacey Musgraves sida hade en ganska seg laddningstid i jämförelse med de övriga sidorna i urvalet, både med cache aktiverat och inaktiverat. Detta är inte optimalt speciellt för conversion rates. First contentful paint för mobila enheter är väldigt hög i antal sekunder vilket inte är bra, dessutom så använder hemsidan av många bilder som inte är av WebP eller AVIF format vilket gör så att det dröjer ytterligare med nedladdningen av content och data. För desktop ligger dock first contentful paint på gränsen till för dålig vilket är en förbättring i jämförelse med tidigare hemsidan.</p>
             </div>
         </div>
         <div class="result-container2">
             <div class="result-title">
-                <h4 style="margin-top: 30px;">Beyonce</h4>
+                <h2 style="margin-top: 30px;">Beyonce</h2>
             </div>
-            <img class="result-img" src="../assets/img/bey.png">
+            <img class="result-img" alt="picture of beyonces website" src="../assets/img/bey.png">
             <div class="result-fonts">
                 <p>Beyonces sida av alla sidor var snabbast både med cache aktiverat och oaktiverat när det kom till laddningstid. Sidan hade dessutom snabbast first contentful paint för både mobila enheter och desktop enheter. Dessutom använder sig hemsidan av lazy load vilket förbättrar användarupplevelsen då användaren inte behöver vänta tills allt har hämtats och laddats ner. De flesta faktorer som leder till hög laddningstid för hemsidan är bilder och oanvänd JavaScript. För mobila enheter har hemsidan sämre performance i jämförelse med desktop, mestadels ligger nog hos bilderna, som inte är lämpligt nerskalade.</p>
             </div>

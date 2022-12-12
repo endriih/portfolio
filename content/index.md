@@ -10,7 +10,7 @@ Description: This is our index page.
             <button onclick="location.href='#my-work'" class="work-btn">View My Work</button>
             <button class="contact-btn">Contact me</button>
         </div>
-         <img class="me-img" src="assets/img/portfoliopic.png">
+         <img class="me-img" alt="picture of a happy chibi figure" src="assets/img/portfoliopic.png">
     </div>
 </div>
 <div class="work-container">
@@ -22,7 +22,7 @@ Description: This is our index page.
                 <p>Ett slutprojekt för BTH kursen Webtec. Sidan gjordes för ett online museum framtaget av ett samarbete mellan Ronny Holm och Mikael Roos</p>
                 <p><a href="http://www.student.bth.se/~enha22/dbwebb-kurser/webtec/me/proj/public/home.php" target="_blank"omg >View website</a></p>
                 </div>
-                <img class="work-img" src="assets/img/bmo.png">
+                <img class="work-img" alt="picture of site owners past project" src="assets/img/bmo.png">
         </div>
     </div>
 </div>

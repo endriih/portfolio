@@ -35,75 +35,41 @@
 
     h1 {
         font-family: $poppins-font;
+        color: #000;
     }
 }
 
 .technology-container > div:nth-of-type(1) {
-    background-color: #a5f1e9;
-
+    background-color: #56b1a8;
     align-items: center;
-
-    h1 {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        color: rgb(0, 0, 0);
-    }
 }
 
 .technology-container > div:nth-of-type(2) {
-    background-color: #a5f1e9;
-
-    h1 {
-        color: #ffc4c4;
-    }
+    background-color: #a5c0f1;
 }
 
 .technology-container > div:nth-of-type(3) {
-    background-color: #bfffd4;
-
-    h1 {
-        color: #ff8b8b;
-    }
+    background-color: #24c95b;
 }
 
 .technology-container > div:nth-of-type(4) {
     background-color: #7e81b6;
-
-    h1 {
-        color: #40305b;
-    }
 }
 
 .technology-container > div:nth-of-type(5) {
     background-color: #ffacc7;
-
-    h1 {
-        color: #f4e06d;
-    }
 }
 
 .technology-container > div:nth-of-type(6) {
     background-color: #ffb9b9;
-
-    h1 {
-        color: #f637ec;
-    }
 }
 
 .technology-container > div:nth-of-type(7) {
     background-color: #b8e8fc;
-
-    h1 {
-        color: #c499ba;
-    }
 }
 
 .technology-container > div:nth-of-type(8) {
-    background-color: #cdfcf6;
-
-    h1 {
-        color: #608fa0;
-    }
+    background-color: #5ec3b5;
 }
 
 /**individual tech*/
